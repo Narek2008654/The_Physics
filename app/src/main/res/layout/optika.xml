@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/home"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="HOME" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Оптическая длина пути определяется формулой: Lopt = Ln"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Закон преломления света на границе двух прозрачных сред: sina / sinb = n2 / n1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Постоянную величину n21 называют относительным показателем преломления второй среды относительно первой. Если n1 > n2, то возможно явление полного внутреннего отражения, при этом: sina = n2 / n1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Формула тонкой линзы: +-1/d +- 1/f = +- 1/F = D"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" /><TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Линейным увеличением линзы Γ называют отношение линейных размеров изображения и предмета: Γ = f/d"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/testopt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ПРОЙТИ ТЕСТ" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

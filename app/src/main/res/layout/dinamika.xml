@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                app:cornerRadius="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Второй закон Ньютона: F = ma"
+                android:textColor="@color/purple_700"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="19dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сила упругости: F = kx"
+                android:textColor="@color/purple_700"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="19dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Общий коэффициент жесткости параллельно соединённых пружин: k = k1 + k2 + ..."
+                android:textColor="@color/purple_700"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="19dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Общий коэффициент жесткости последовательно соединённых пружин: 1/k = 1/k1 + 1/k2 + ..."
+                android:textColor="@color/purple_700"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="19dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Закон всемирного тяготения: F = G* Mm/r^2  Если рассмотреть тело на поверхности планеты и ввести следующее обозначение: g = GM/R^2 Где: g - ускорение свободного падения на поверхности данной планеты, то получим следующую формулу для силы тяжести: F = mg"
+                android:textColor="@color/purple_700"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="19dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ускорение свободного падения на некоторой высоте от поверхности планеты выражается формулой: g = GM / (Rn + h)^2"
+                android:textColor="@color/purple_700"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="19dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Закон Кеплера для периодов обращения двух тел вращающихся вокруг одного притягивающего центра: T1^2 / T2^2 = R1^3 / R2^3"
+                android:textColor="@color/purple_700"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/testdinam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ПРОЙТИ ТЕСТ"
+                app:cornerRadius="100dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

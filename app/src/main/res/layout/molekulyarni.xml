@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="393dp"
+        android:layout_height="708dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/home"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="HOME" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="1340dp"
+                android:text="АВОГАДРО ЗАКОН - один из основных законов идеальных газов: в равных объемах различных газов при одинаковой температуре и давлении содержится одинаковое число молекул. Открыт в 1811 году итал. физиком А.Авогадро(1776-1856).
+
+БОЙЛЯ-МАРИОТТА ЗАКОН - один из законов идеального газа: для данной массы данного газа при постоянной температуре произведение давления на объем есть величина постоянная. Формула: pV=const. Описывает изотермический процесс.
+
+ВТОРОЙ ЗАКОН ТЕРМОДИНАМИКИ - один из основных законов термодинамики, согласно которому невозможен периодический процесс единственным результатом которого является совершение работы, эквивалентной количеству теплоты, полученному от нагревателя. Другая формулировка: невозможен процесс, единственным результатом которого является передача энергии в форме теплоты от менее нагретого тела к более нагретому. В.з.т. выражает стремление системы, состоящей из большого количества хаотически движущихся частиц, к самопроизвольному переходу из состояний менее вероятных в состояния более вероятные. Запрещает создание вечного двигателя второго рода.
+
+ГЕЙ-ЛЮССАКА ЗАКОН - газовый закон: для данной массы данного газа при постоянном давлении отношение объема к абсолютной температуре есть величина постоянная ,где =1/273 К-1 - температурный коэффициент объемного расширения.
+
+ДАЛЬТОНА ЗАКОН - один из основных газовых законов: давление смеси химически не взаимодействующих идеальных газов равно сумме парциальных давлений этих газов.
+
+ПАСКАЛЯ ЗАКОН - основной закон гидростатики: давление, производимое внешними силами на поверхность жидкости или газа, передается одинаково по всем направлениям.
+
+ПЕРВЫЙ ЗАКОН ТЕРМОДИНАМИКИ - один из основных законов термодинамики, являющийся законом сохранения энергии для термодинамической системы: количество теплоты Q, сообщенное системе, расходуется на изменение внутренней энергии системы U и совершение системой работы A против внешних сил. Формула: Q= U+A. Лежит в основе работы тепловых машин.
+
+ШАРЛЯ ЗАКОН - один из основных газовых законов: давление данной массы идеального газа при постоянном объеме прямо пропорционально температуре:  где p0 - давление при 00С, =1/273,15 К-1 - температурный коэффициент давления."
+                android:textColor="@color/purple_700"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

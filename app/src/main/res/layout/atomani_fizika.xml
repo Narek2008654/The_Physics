@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200">
+
+    <ScrollView
+        android:layout_width="399dp"
+        android:layout_height="704dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                app:cornerRadius="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="БОРА ПОСТУЛАТЫ - основные допущения, введенные без доказательства Н.Бором, и положенные в основу БОРА ТЕОРИИ: 1) Атомная система устойчива только в стационарных состояниях, которые соответствуют дискретной последовательности значений энергии атома. Каждое изменение этой энергии связано с полным переходом атома из одного стационарного состояния в другое. 2) Поглощение и излучение энергии атомом происходит по закону, согласно которому связанное с переходом излучение является монохроматическим и обладает частотой : h =Ei-Ek, где h -Планка постоянная, а Ei и Ek - энергии атома в стационарных состояниях."
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/home"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="HOME" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Количество теплоты (энергии) необходимое для нагревания некоторого тела (или количество теплоты выделяющееся при остывании тела) рассчитывается по формуле: Q = cm(t2 - t1)"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Теплоемкость (С - большое) тела может быть рассчитана через удельную теплоёмкость (c - маленькое) вещества и массу тела по следующей формуле: C = cm"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Тогда формула для количества теплоты необходимой для нагревания тела, либо выделившейся при остывании тела может быть переписана следующим образом: Q = C(t2 - t1)"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Фазовые превращения. При парообразовании поглощается, а при конденсации выделяется количество теплоты равное: Q = rm"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="При сгорании топлива выделяется количество теплоты равное: Q = qm"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если все теплоты записывать с учетом знака, где «+» соответствует получению энергии телом, а «–» выделению, то данное уравнение можно записать в виде: Q1 + Q2 + Q3 + ... = 0"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Работа идеального газа: A = (m / M)*RT"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если же давление газа меняется, то работу газа считают, как площадь фигуры под графиком в p–V координатах. Внутренняя энергия идеального одноатомного газа: U = 3/2vRT"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/purple_700"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/testtermo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ПРОЙТИ ТЕСТ" />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

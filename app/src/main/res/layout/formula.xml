@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/home"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="HOME" />
+
+            <Button
+                android:id="@+id/kinematika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Кинематика" />
+
+            <Button
+                android:id="@+id/dinamika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Динамика" />
+
+            <Button
+                android:id="@+id/statika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Статика" />
+
+            <Button
+                android:id="@+id/hidrostatika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Гидростатика" />
+
+            <Button
+                android:id="@+id/impuls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Импульс" />
+
+            <Button
+                android:id="@+id/ashxatanq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Работа, мощность, энергия" />
+
+            <Button
+                android:id="@+id/termodinamika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Термодинамика" />
+
+            <Button
+                android:id="@+id/elektroctatika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Электростатика" />
+
+            <Button
+                android:id="@+id/elektrakan_tok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Электрический ток" />
+            <Button
+                android:id="@+id/kolebaniya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Колебания" />
+
+            <Button
+                android:id="@+id/optika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Оптика" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>
