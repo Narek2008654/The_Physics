@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@color/black">
+    android:background="@color/teal_200">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="338dp"
+        android:layout_height="614dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/home"
@@ -26,197 +30,226 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Путь при равномерном движении: L = v*t"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Путь при равномерном движении: L = v*t"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Путь при равномерном движении: L = v*t"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Путь при равномерном движении: L = v*t"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Путь при равномерном движении: L = v*t"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Путь при равномерном движении: L = v*t"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Перемещение S (расстояние по прямой между начальной и конечной точкой движения) обычно находится из геометрических соображений. Координата при равномерном прямолинейном движении изменяется по закону (аналогичные уравнения получаются для остальных координатных осей): x = x0 + v0t"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Средняя скорость пути: v = L1 + L2 + ... / t1 + t2 + ..."
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Определение ускорения при равноускоренном движении: a = (V - V0) / t"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="средняя скорость при равноускоренном движении: V = (v + v0) / 2"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Перемещение при равноускоренном прямолинейном движении может быть рассчитано по нескольким формулам: S = V0t + at^2 / 2   S = V^2 - V0^2 / 2a  S = (V+V0) * t / 2"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Координата при равноускоренном движении изменяется по закону: x = x0 + v0t + at^2 / 2"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Максимальная высота на которую поднимется тело, брошенное вертикально вверх с начальной скоростью v0, время подъема этого тела на максимальную высоту, и полное время полета (до возвращения в исходную точку): h = v0^2 / 2g ; t1 =v0/g ; t = 2v0 / g"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Определение периода вращения при равномерном движении по окружности: T = t / N"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Связь периода и частоты: T = 1 / V"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/testkinem"
@@ -229,4 +262,4 @@
     </ScrollView>
 
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

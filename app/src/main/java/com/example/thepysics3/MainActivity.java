@@ -21,6 +21,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    int a = 0;
     Button home;
     WebView webView;
     Button formula;
@@ -28,6 +29,38 @@ public class MainActivity extends AppCompatActivity {
     Button teorem;
     Button kinematika;
     Button testkinem;
+    Button testkinem11;
+    Button testkinem12;
+    Button testkinem13;
+    Button testkinem14;
+    Button testkinem21;
+    Button testkinem22;
+    Button testkinem23;
+    Button testkinem24;
+    Button testkinem31;
+    Button testkinem32;
+    Button testkinem33;
+    Button testkinem34;
+    Button testkinem41;
+    Button testkinem42;
+    Button testkinem43;
+    Button testkinem44;
+    Button testkinem51;
+    Button testkinem52;
+    Button testkinem53;
+    Button testkinem54;
+    Button testkinem61;
+    Button testkinem62;
+    Button testkinem63;
+    Button testkinem64;
+    Button testkinem71;
+    Button testkinem72;
+    Button testkinem73;
+    Button testkinem74;
+    Button testkinem81;
+    Button testkinem82;
+    Button testkinem83;
+    Button testkinem84;
     Button dinam;
     Button testdinam;
     Button statika;
@@ -92,6 +125,155 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onClick(View v) {
                                 setContentView(R.layout.testkinem);
+                                testkinem11 =findViewById(R.id.a1);
+                                testkinem11.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        setContentView(R.layout.testkinem2);
+                                        testkinem21 =findViewById(R.id.a1);
+                                        testkinem21.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                        setContentView(R.layout.testkinem2);
+                                        testkinem22 =findViewById(R.id.a2);
+                                        testkinem22.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                        testkinem23 =findViewById(R.id.a3);
+                                        testkinem23.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                a++;
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                        testkinem24 =findViewById(R.id.a4);
+                                        testkinem24.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                    }
+                                });
+                                testkinem12 =findViewById(R.id.a2);
+                                testkinem12.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        a++;
+                                        setContentView(R.layout.testkinem2);
+                                        testkinem21 =findViewById(R.id.a1);
+                                        testkinem21.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                        setContentView(R.layout.testkinem2);
+                                        testkinem22 =findViewById(R.id.a2);
+                                        testkinem22.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                        testkinem23 =findViewById(R.id.a3);
+                                        testkinem23.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                a++;
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                        testkinem24 =findViewById(R.id.a4);
+                                        testkinem24.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                    }
+                                });
+                                testkinem13 =findViewById(R.id.a3);
+                                testkinem13.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        setContentView(R.layout.testkinem2);
+                                        testkinem21 =findViewById(R.id.a1);
+                                        testkinem21.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                        setContentView(R.layout.testkinem2);
+                                        testkinem22 =findViewById(R.id.a2);
+                                        testkinem22.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                        testkinem23 =findViewById(R.id.a3);
+                                        testkinem23.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                a++;
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                        testkinem24 =findViewById(R.id.a4);
+                                        testkinem24.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                    }
+                                });
+                                testkinem14 =findViewById(R.id.a4);
+                                testkinem14.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        setContentView(R.layout.testkinem2);
+                                        testkinem21 =findViewById(R.id.a1);
+                                        testkinem21.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                        setContentView(R.layout.testkinem2);
+                                        testkinem22 =findViewById(R.id.a2);
+                                        testkinem22.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                        testkinem23 =findViewById(R.id.a3);
+                                        testkinem23.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                a++;
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                        testkinem24 =findViewById(R.id.a4);
+                                        testkinem24.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+                                                setContentView(R.layout.testkinem3);
+                                            }
+                                        });
+                                    }
+                                });
                             }
                         });
                     }

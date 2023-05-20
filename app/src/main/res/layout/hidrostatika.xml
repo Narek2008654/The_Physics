@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black">
+    android:background="@color/teal_200">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="316dp"
+        android:layout_height="655dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -21,7 +21,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
+
             <Button
                 android:id="@+id/home"
                 android:layout_width="106dp"
@@ -32,80 +33,92 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Определение давления задаётся следующей формулой: P = F/S"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Давление, которое создает столб жидкости находится по формуле: P = рgh"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Но часто нужно учитывать еще и атмосферное давление, тогда формула для общего давления на некоторой глубине h в жидкости приобретает вид: P = p0 + pgh"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Идеальный гидравлический пресс: F1h1 = F2h2"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Любой гидравлический пресс: S2h2 = S1h1"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Сила Архимеда (выталкивающая сила, V - объем погруженной части тела): F = pgV"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textColor="@color/purple_700"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <Button
                 android:id="@+id/testhidro"
                 android:layout_width="match_parent"

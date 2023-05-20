@@ -7,8 +7,8 @@
     android:background="@color/teal_200">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="346dp"
+        android:layout_height="671dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
@@ -21,7 +21,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/home"
@@ -29,6 +29,7 @@
                 android:layout_height="wrap_content"
                 android:text="HOME"
                 app:cornerRadius="20dp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,69 +37,82 @@
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
                 android:textSize="20dp"
                 android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Плотность тока: j = I / S"
-                android:textColor="@color/purple_700"
+                android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
                 android:textSize="20dp"
                 android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Сопротивление проводника: R  = p * l / S"
-                android:textColor="@color/purple_700"
+                android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="bold" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textSize="20dp"
-                android:textStyle="bold" /><TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Зависимость сопротивления проводника от температуры задаётся следующей формулой: R = E0(1 + at)"
-            android:textColor="@color/purple_700"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textSize="20dp"
-                android:textStyle="bold" /><TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Закон Ома (выражает зависимость силы тока от электрического напряжения и сопротивления): I = U / R"
-            android:textColor="@color/purple_700"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
                 android:textSize="20dp"
                 android:textStyle="bold" />
+
             <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Работа электрического тока (закон Джоуля-Ленца). Работа А электрического тока протекающего по проводнику обладающему сопротивлением преобразуется в теплоту Q выделяющуюся на проводнике: Q = A = I^2Rt = IUt = U^2 / R * t"
-            android:textColor="@color/purple_700"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Зависимость сопротивления проводника от температуры задаётся следующей формулой: R = E0(1 + at)"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Закон Ома (выражает зависимость силы тока от электрического напряжения и сопротивления): I = U / R"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Работа электрического тока (закон Джоуля-Ленца). Работа А электрического тока протекающего по проводнику обладающему сопротивлением преобразуется в теплоту Q выделяющуюся на проводнике: Q = A = I^2Rt = IUt = U^2 / R * t"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -112,7 +126,6 @@
                 android:layout_height="wrap_content"
                 android:text="ПРОЙТИ ТЕСТ"
                 app:cornerRadius="100dp" />
-
 
 
         </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black">
+    android:background="@color/teal_200">
 
     <ScrollView
         android:layout_width="409dp"
@@ -20,39 +20,48 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
+
             <Button
                 android:id="@+id/home"
                 android:layout_width="106dp"
                 android:layout_height="wrap_content"
-                android:text="HOME" />
+                android:text="HOME"
+                app:cornerRadius="20dp" />
+
             <Button
                 android:id="@+id/mexanika"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="МЕХАНИКА" />
+                android:text="МЕХАНИКА"
+                app:cornerRadius="100dp" />
 
             <Button
                 android:id="@+id/molekulyarni_fizika"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="МОЛЕКУЛЯРНАЯ ФИЗИКА И ТЕРМОДИНАМИКА" />
+                android:text="МОЛЕКУЛЯРНАЯ ФИЗИКА И ТЕРМОДИНАМИКА"
+                app:cornerRadius="100dp" />
 
             <Button
                 android:id="@+id/elektrichestvo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ЭЛЕКТРИЧЕСТВО И МАГНЕТИЗМ" />
+                android:text="ЭЛЕКТРИЧЕСТВО И МАГНЕТИЗМ"
+                app:cornerRadius="100dp" />
 
             <Button
                 android:id="@+id/opt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ОПТИКА" />
+                android:text="ОПТИКА"
+                app:cornerRadius="100dp" />
+
             <Button
                 android:id="@+id/atomayin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="АТОМНАЯ И ЯДЕРНАЯ ФИЗИКА." />
+                android:text="АТОМНАЯ И ЯДЕРНАЯ ФИЗИКА."
+                app:cornerRadius="100dp" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

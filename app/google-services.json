@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "703339917816",
+    "project_id": "thephysics-5d11e",
+    "storage_bucket": "thephysics-5d11e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703339917816:android:7717b64227733e9ae9260d",
+        "android_client_info": {
+          "package_name": "com.example.thepysics3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703339917816-5c4f2afiutlk9t51ilbtgtn2ejq4fpta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTWQykM8iK6Uzzc62JLmh85Dxr5WxmU6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703339917816-5c4f2afiutlk9t51ilbtgtn2ejq4fpta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
